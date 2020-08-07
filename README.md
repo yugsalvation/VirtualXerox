@@ -1,7 +1,7 @@
 Virtual Xerox <br/>
 1. A spring boot and opencv python integrated application <br/>
 2. Submit any image file and it would generate a virtual photocopy/xerox of that image.<br/>
-3. The opencv python script is used to convert the image to the photocopy form and I have run the python file from the spring boot project itself!.<br/>
+3. I have created an opencv python program to convert the image to the photocopy form(I have also equalized brightness and contrast which exactly simulates a photocopy machine) and I have run the python file from the spring boot project itself!.<br/>
 
 <b>Screenshots</b>
 <img width="1280" alt="Screenshot 2020-08-08 at 2 04 03 AM" src="https://user-images.githubusercontent.com/33853459/89687644-39314d00-d91e-11ea-9ce4-5afdd083284d.png"> <br/>

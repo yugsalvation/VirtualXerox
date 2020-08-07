@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8"></meta>
+<title>Upload Picture</title>
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>Virtual Xerox</h1>
+   <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="files">
+      <input type="submit" value="Upload Pic"></input>
+   </form>
+  <div class="footer">
+  <p>Made by Yug Rawal</p>
+</div>
+</body>
+</html>
